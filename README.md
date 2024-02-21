@@ -13,7 +13,7 @@ In this work, linear spring and damper elements are assumed, and the mass of the
 ### Acknowledgment
 Some parts of the codebase in this project are adapted from the “Learn Multibody Dynamics” course [Moore].
 
-<img src="https://github.com/MoBehtash/Multibody-QuarterCar/blob/main/Figures/schematic.jpg" alt="Alt Text" width="800">
+<img src="https://github.com/MoBehtash/multibody_mcpherson/blob/main/images/schematic.jpg" alt="Alt Text" width="800">
 
 
 
@@ -26,27 +26,28 @@ Some parts of the codebase in this project are adapted from the “Learn Multibo
     <td align="center" style="border: 1px solid black;">Sine Sweep (Four-Post Rig)</td>
   </tr>  
     <tr>
-      <td align="center" style="border: 1px solid black;"><img src="https://github.com/MoBehtash/Multibody-QuarterCar/blob/main/Figures/step_animation.gif" alt="Image 1" width="380"><br><strong></strong></td>
-      <td align="center" style="border: 1px solid black;"><img src="https://github.com/MoBehtash/Multibody-QuarterCar/blob/main/Figures/chirp_animation.gif" alt="Image 2" width="380"><br><strong></strong></td>
+      <td align="center" style="border: 1px solid black;"><img src="https://github.com/MoBehtash/multibody_mcpherson/blob/main/images/step_animation.gif" alt="Image 1" width="380"><br><strong></strong></td>
+      <td align="center" style="border: 1px solid black;"><img src="https://github.com/MoBehtash/multibody_mcpherson/blob/main/images/chirp_animation.gif" alt="Image 2" width="380"><br><strong></strong></td>
     </tr>
   </table>
   <table style="border-collapse: collapse; border: 1px solid black; background-color: white;">
     <tr>
-      <td align="center" style="border: 1px solid black;"><img src="https://github.com/MoBehtash/Multibody-QuarterCar/blob/main/Figures/time_res.png" width="380"><br><strong></strong></td>
-      <td align="center" style="border: 1px solid black;"><img src="https://github.com/MoBehtash/Multibody-QuarterCar/blob/main/Figures/freq_res.png" width="380"><br><strong></strong></td>
+      <td align="center" style="border: 1px solid black;"><img src="https://github.com/MoBehtash/multibody_mcpherson/blob/main/images/time_res.png" width="380"><br><strong></strong></td>
+      <td align="center" style="border: 1px solid black;"><img src="https://github.com/MoBehtash/multibody_mcpherson/blob/main/images/freq_res.png" width="380"><br><strong></strong></td>
     </tr>
   </table>
   
   
+## Disclaimer
+Please note that while this vehicle model and analysis framework can provide valuable insights, there is no guarantee of its accuracy in representing real-world vehicle behavior. The model's simplicity and assumptions may not fully capture the complexities of actual automotive vehicles.
+
+**Note:** Feel free to contribute, share your insights, or open issues for discussion. Collaboration is key to expanding our understanding of vehicle dynamics.
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>Python 3.12</b>
 - Packages: numpy, matplotlib, scipy, sympy, IPython
 
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b>
 
 ## References
 - Hong, K. S., Jeon, D. S., & Sohn, H. C. (1999, June). A new modeling of the Macpherson suspension system and its optimal pole-placement control. In Proceedings of the 7th Mediterranean Conference on Control and Automation (MED99) (pp. 559-579).
