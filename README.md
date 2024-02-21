@@ -7,10 +7,10 @@ This project is a multibody dynamic simulation of a McPherson suspension system,
 
 Note that based on [Hong, 1999], the planar and the multibody models are equivalent when $L_{23} = L_{24}$ and $\theta_0 = 0$.
 
-### Limitations
+## Limitations
 In this work, linear spring and damper elements are assumed, and the mass of the control arm is neglected. The wheel is also assumed to be in contact with the ground (actuator) and its lift-off is not considered here. Additionally, the model exhibits anomalous responses for road heights exceeding 0.1 m, and some deviations from the planar quarter car at lower frequencies, which are currently under investigation.
 
-### Acknowledgment
+## Acknowledgment
 Some parts of the codebase in this project are adapted from the “Learn Multibody Dynamics” course [Moore].
 
 <img src="https://github.com/MoBehtash/multibody_mcpherson/blob/main/images/schematic.jpg" alt="Alt Text" width="800">
